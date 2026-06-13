@@ -6,13 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>FlowSync</title>
 
-    <!-- Amplitude -->
-    <script src="https://cdn.amplitude.com/script/5014ac04ab2532299e61349fbb8f7277.js"></script>
-    <script>
-    window.amplitude.add(window.sessionReplay.plugin({ sampleRate: 1 })); 
-    window.amplitude.init('5014ac04ab2532299e61349fbb8f7277', { "fetchRemoteConfig": true, "autocapture": true });
-    </script>
-
     <style>
         * {
             box-sizing: border-box;
@@ -125,6 +118,7 @@
             display: block;
         }
     </style>
+    <script src="https://cdn.amplitude.com/script/370fa0becbb6c8226507d9d7a60c613e.js"></script><script>window.amplitude.add(window.sessionReplay.plugin({sampleRate: 1}));window.amplitude.init('370fa0becbb6c8226507d9d7a60c613e', {"fetchRemoteConfig":true,"autocapture":{"attribution":{"trackingMethod":["userProperty","eventProperty"]},"fileDownloads":true,"formInteractions":true,"pageViews":true,"sessions":true,"elementInteractions":true,"networkTracking":true,"webVitals":true,"frustrationInteractions":{"thrashedCursor":true,"errorClicks":true,"deadClicks":true,"rageClicks":true}}});</script>
 </head>
 
 <body>
